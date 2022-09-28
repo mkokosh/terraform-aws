@@ -5,7 +5,7 @@ variable "aws_region" {
 }
 
 
-# variable "private_cidrs" {
-#   type = list(any)
-#   default = []
-# }
+variable "private_cidrs" {
+   type = list(any)
+   default = []
+}
